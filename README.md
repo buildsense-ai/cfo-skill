@@ -5,7 +5,7 @@ Company accountant skill for Claude Code. Tracks expenses and income, generates 
 ## Install
 
 ```
-/plugin install https://github.com/buildsense-ai/cfo-skill
+claude plugin install https://github.com/buildsense-ai/cfo-skill
 ```
 
 ## What It Does
