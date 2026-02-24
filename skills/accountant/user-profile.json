@@ -1,0 +1,34 @@
+{
+  "version": "1.0",
+  "last_updated": "",
+  "company": {
+    "name": "",
+    "product": "",
+    "industry": "",
+    "size": "",
+    "notes": ""
+  },
+  "expense_landscape": {
+    "known_sources": [],
+    "confirmed_absent": [],
+    "custom_categories": []
+  },
+  "recurrents": [],
+  "income_sources": [],
+  "data_access": {
+    "platforms": [],
+    "bank_accounts": [],
+    "invoice_locations": []
+  },
+  "preferences": {
+    "currency": "USD",
+    "report_frequency": "",
+    "alert_thresholds": {},
+    "language": ""
+  },
+  "onboarding_progress": {
+    "categories_asked": [],
+    "categories_remaining": ["Payroll", "SaaS/API", "Infrastructure", "Office", "Travel", "Marketing", "Legal", "Misc"],
+    "negative_confirmations": []
+  }
+}

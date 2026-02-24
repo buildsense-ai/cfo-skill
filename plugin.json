@@ -1,0 +1,8 @@
+{
+  "name": "accountant",
+  "description": "Evolving company accountant agent: tracks expenses and income, generates balance sheets, queries financial data via SQLite, manages user context via JSON metadata profile, reads invoices/receipts (PDF/image), syncs OpenRouter API costs, and generates financial reports.",
+  "author": {
+    "name": "BuildSense AI",
+    "email": "hello@buildsense.ai"
+  }
+}
