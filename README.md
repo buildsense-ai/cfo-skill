@@ -4,8 +4,25 @@ Company accountant skill for Claude Code. Tracks expenses and income, generates 
 
 ## Install
 
-```
+### Claude Code (one-line)
+
+```bash
 claude plugin install https://github.com/buildsense-ai/cfo-skill
+```
+
+### Manual (any agent)
+
+```bash
+git clone https://github.com/buildsense-ai/cfo-skill.git
+cp -r cfo-skill/skills/accountant ~/.claude/skills/
+```
+
+Then add the skill's scripts to the runtime directory:
+
+```bash
+mkdir -p ~/.accountant
+cp -r cfo-skill/skills/accountant/scripts ~/.accountant/
+cp cfo-skill/skills/accountant/user-profile.json ~/.accountant/
 ```
 
 ## What It Does
